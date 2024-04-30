@@ -12,13 +12,13 @@ Validate(){
     fi
 }
 
-if [ $Id -ne 0 ]{
+if [ $Id -ne 0 ]
 then
     echo "ERR: Please run with root access"
     exit 1
 else
     echo "You are root user"
-}
+fi
 
 yum install mysql -y
 
